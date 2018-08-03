@@ -1,7 +1,7 @@
 module Players
   class Computer < Player
     
-    def move 
+    def move (board)
       if board.cells.count{|square| square != " " } == 0
         "1"
       elsif board.cells.count{|square| square != " " } == 1
