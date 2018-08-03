@@ -61,7 +61,7 @@ def turn
     else
       puts "That number is invalid."
       turn
-
+end
   
 end 
 
