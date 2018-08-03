@@ -2,7 +2,7 @@ module Players
   class Computer < Player
     
     def move 
-      f board.cells.count{|square| square != " " } == 0
+      includef board.cells.count{|square| square != " " } == 0
         "1"
       elsif board.cells.count{|square| square != " " } == 1
         board.cells.find_index("X") == 4 ? "1" : "5"
